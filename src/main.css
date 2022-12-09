@@ -1,5 +1,76 @@
-.top{
-    height: 100vh;
-    width: 100%;
-    background-color: aquamarine;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.welcome-text {
+  color: antiquewhite;
+  margin: auto;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.pos-absolute {
+  position: absolute;
+}
+
+.all-fill {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  padding: 100px;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 0 50px;
+}
+
+.first {
+  background-color: aquamarine;
+  position: relative;
+  z-index: 5;
+}
+
+.second {
+  background-color: chocolate;
+  color: darksalmon;
+}
+
+.third {
+  background-color: crimson;
+  color: blanchedalmond;
+}
+
+.fourth {
+  background-color: darkolivegreen;
+  color: burlywood;
+}
+
+.cls-1 {
+  fill: #fff0;
+  stroke: #231f20;
+  stroke-miterlimit: 10;
+  stroke-width: 7px;
+}
+
+.svg-div {
+  width: 70%;
+  margin: auto;
 }
