@@ -25,7 +25,6 @@ gsap.set(".cls-1", { strokeDasharray: "" + length + "," + length });
 gsap.from(".cls-1", {
   scrollTrigger: {
     trigger: ".Second",
-    markers: true,
     scrub: 1.5,
     pin: true,
     start: "top top",
